@@ -1,7 +1,7 @@
-/*global*/
+/* global */
 @font-face {
-  font-family: Verdana;
-  src: url(../font/verdana.ttf);
+  font-family: segoeui;
+  src: url(../font/segoeui.ttf);
 }
 * {
   margin: 0;
@@ -20,7 +20,7 @@ figure {
 }
 html,
 body {
-  font-family: Verdana;
+ font-family: segoeui;
 }
 /* navbar */
 .navbar {
