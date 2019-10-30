@@ -1,0 +1,127 @@
+/* contact background */
+.breadcrumb .breadcrumb-item a {
+  color: white;
+}
+/* left-column */
+.padding-left {
+  padding-left: 10px;
+}
+.blue-text {
+  color: #3a5977;
+}
+.padding-left {
+  padding-left: 10px;
+}
+.blue-bg {
+  background: #3a5977;
+  color: white;
+}
+/* tag */
+.blue-text {
+  color: #3a5977;
+}
+.row h4 {
+  padding-top: 6px;
+}
+.row p {
+  padding-left: 10px;
+}
+/* right column */
+.green {
+  background: #39b54a;
+  color: white;
+  font-size: 10px;
+}
+.pos-ab2 {
+  position: absolute;
+  top: 0;
+  left: 10;
+  background: rgba(0, 0, 0, 0.4);
+  width: 89%;
+  height: 100%;
+  visibility: hidden;
+}
+.col-md-12:hover .pos-ab2 {
+  visibility: visible;
+  transition: all 0.5s;
+}
+.price h5 {
+  font-size: 16px;
+}
+.place span {
+  font-size: 16px;
+}
+.offset-md-3 .img-fluid {
+  padding-right: 20%;
+}
+.margin-top {
+  margin-top: 30px;
+}
+@media only screen and (max-width: 991px) {
+  .pos-ab2 {
+    position: absolute;
+    top: 0;
+    left: 10;
+    background: rgba(0, 0, 0, 0.4);
+    width: 83%;
+    height: 100%;
+    visibility: hidden;
+  }
+  .green {
+    background: #39b54a;
+    color: white;
+    font-size: 3px;
+  }
+  .offset-md-3 .img-fluid {
+    padding-right: 30%;
+  }
+  .margin-top {
+    margin-top: 0;
+  }
+  .price h5 {
+    font-size: 10px;
+  }
+  .place span {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .pos-ab2 {
+    position: absolute;
+    top: 0;
+    left: 10;
+    background: rgba(0, 0, 0, 0.4);
+    width: 70%;
+    height: 100%;
+    visibility: hidden;
+  }
+  .green {
+    background: #39b54a;
+    color: white;
+    font-size: 10px;
+    width: 80px;
+  }
+  .offset-md-3 .img-fluid {
+    margin-left: 116px;
+  }
+  .margin-top {
+    margin-top: 0;
+  }
+  .price h5 {
+    font-size: 10px;
+  }
+  .place span {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 468px) {
+  .pos-ab2 {
+    position: absolute;
+    top: 0;
+    left: 10;
+    background: rgba(0, 0, 0, 0.4);
+    width: 92%;
+    height: 100%;
+    visibility: hidden;
+  }
+}
