@@ -1,3 +1,7 @@
+@font-face {
+  font-family: segoeui;
+  src: url(../font/segoeui.ttf);
+}
 /* carousel */
 .carousel-caption {
   bottom: 50%;
@@ -61,11 +65,11 @@
   color: #ff790f !important;
 }
 /* range input */
-input[type=range] {
+input[type="range"] {
   box-sizing: border-box;
   -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   width: 200px;
   margin: 0;
   padding: 0 2px;
@@ -79,11 +83,11 @@ input[type=range] {
   background-size: 100% 2px;
   pointer-events: none;
 }
-input[type=range]:active,
-input[type=range]:focus {
+input[type="range"]:active,
+input[type="range"]:focus {
   outline: none;
 }
-input[type=range]::-webkit-slider-thumb {
+input[type="range"]::-webkit-slider-thumb {
   height: 10px;
   width: 10px;
   border-radius: 28px;
@@ -93,12 +97,12 @@ input[type=range]::-webkit-slider-thumb {
   /* Add some margin to ensure box shadow is shown */
   cursor: pointer;
   -webkit-appearance: none;
-          appearance: none;
+  appearance: none;
   pointer-events: all;
   box-shadow: 0 1px 4px 0.5px rgba(0, 0, 0, 0.25);
 }
-input[type=range]::-webkit-slider-thumb::before {
-  content: ' ';
+input[type="range"]::-webkit-slider-thumb::before {
+  content: " ";
   display: block;
   position: absolute;
   top: 13px;
@@ -110,16 +114,16 @@ input[type=range]::-webkit-slider-thumb::before {
   position: relative;
   height: 50px;
 }
-.multi-range input[type=range] {
+.multi-range input[type="range"] {
   position: absolute;
 }
-.multi-range input[type=range]:nth-child(1)::-webkit-slider-thumb::before {
+.multi-range input[type="range"]:nth-child(1)::-webkit-slider-thumb::before {
   background-color: purple;
 }
-.multi-range input[type=range]:nth-child(2) {
+.multi-range input[type="range"]:nth-child(2) {
   background: none;
 }
-.multi-range input[type=range]:nth-child(2)::-webkit-slider-thumb::before {
+.multi-range input[type="range"]:nth-child(2)::-webkit-slider-thumb::before {
   background-color: grey;
 }
 /* news */
@@ -145,12 +149,39 @@ input[type=range]::-webkit-slider-thumb::before {
 .padding-ver-lg {
   padding-top: 30px;
 }
-input.empty {
-  font-family: FontAwesome;
-  font-style: normal;
+.mainLoginInput {
+  height: 40px;
+  padding: 0px;
+  font-size: 30px;
+  margin: 5px 0;
+}
+
+.mainLoginInput::-webkit-input-placeholder {
+  font-family: FontAwesome, segoeui;
+  overflow: visible;
+  vertical-align: top;
+  display: inline-block !important;
+  padding-left: 5px;
+  padding-top: 2px;
+}
+
+.mainLoginInput::-moz-placeholder {
+  font-family: FontAwesome, segoeui;
   font-weight: normal;
-  text-decoration: inherit;
-  color: white;
+  overflow: visible;
+  vertical-align: top;
+  display: inline-block !important;
+  padding-left: 5px;
+  padding-top: 2px;
+}
+
+.mainLoginInput:-ms-input-placeholder {
+  font-family: FontAwesome, segoeui;
+  overflow: visible;
+  vertical-align: top;
+  display: inline-block !important;
+  padding-left: 5px;
+  padding-top: 2px;
 }
 .fw-bold {
   font-weight: bold;
@@ -176,12 +207,12 @@ input.empty {
   color: white;
 }
 /* selling & leasing */
-.green{
+.green {
   background: #39b54a;
   color: white;
   font-size: 10px;
 }
-.pos-ab2{
+.pos-ab2 {
   position: absolute;
   top: 0;
   left: 10;
@@ -190,20 +221,20 @@ input.empty {
   height: 100%;
   visibility: hidden;
 }
-.col-md-3:hover .pos-ab2{
+.col-md-3:hover .pos-ab2 {
   visibility: visible;
   transition: all 0.5s;
 }
-.price h5{
+.price h5 {
   font-size: 16px;
 }
-.place span{
+.place span {
   font-size: 16px;
 }
-.offset-md-3 .img-fluid{
+.offset-md-3 .img-fluid {
   padding-right: 20%;
 }
-.margin-top{
+.margin-top {
   margin-top: 30px;
 }
 @media only screen and (max-width: 991px) {
@@ -218,7 +249,7 @@ input.empty {
     width: 80%;
     height: 80%;
   }
-  .pos-ab2{
+  .pos-ab2 {
     position: absolute;
     top: 0;
     left: 10;
@@ -227,21 +258,21 @@ input.empty {
     height: 100%;
     visibility: hidden;
   }
-  .green{
+  .green {
     background: #39b54a;
     color: white;
     font-size: 3px;
   }
-  .offset-md-3 .img-fluid{
+  .offset-md-3 .img-fluid {
     padding-right: 30%;
   }
-  .margin-top{
+  .margin-top {
     margin-top: 0;
   }
-  .price h5{
+  .price h5 {
     font-size: 10px;
   }
-  .place span{
+  .place span {
     font-size: 10px;
   }
 }
@@ -262,7 +293,7 @@ input.empty {
     top: 20%;
     left: -15%;
   }
-  .pos-ab2{
+  .pos-ab2 {
     position: absolute;
     top: 0;
     left: 10;
@@ -271,19 +302,19 @@ input.empty {
     height: 100%;
     visibility: hidden;
   }
-  .green{
+  .green {
     background: #39b54a;
     color: white;
     font-size: 10px;
     width: 80px;
   }
-  .offset-md-3 .img-fluid{
+  .offset-md-3 .img-fluid {
     margin-left: 116px;
   }
-  .price h5{
+  .price h5 {
     font-size: 16px;
   }
-  .place span{
+  .place span {
     font-size: 14px;
   }
 }
@@ -304,7 +335,7 @@ input.empty {
     top: 20%;
     left: -15%;
   }
-  .pos-ab2{
+  .pos-ab2 {
     position: absolute;
     top: 0;
     left: 10;
