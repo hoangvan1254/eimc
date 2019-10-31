@@ -212,6 +212,22 @@ input[type="range"]::-webkit-slider-thumb::before {
 .margin-top {
   margin-top: 30px;
 }
+/* animation */
+#WhyUS {
+  animation-duration: 1.5s;
+  animation-delay: 2s;
+  animation-iteration-count: 1;
+}
+#leasing {
+  animation-duration: 2s;
+  animation-delay: 4s;
+  animation-iteration-count: 1;
+}
+#selling {
+  animation-duration: 3s;
+  animation-delay: 4s;
+  animation-iteration-count: 1;
+}
 @media only screen and (max-width: 991px) {
   .title {
     width: 100%;

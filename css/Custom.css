@@ -21,6 +21,7 @@ figure {
 html,
 body {
  font-family: segoeui;
+ scroll-behavior: smooth;
 }
 /* navbar */
 .navbar {
