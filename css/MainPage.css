@@ -2,6 +2,8 @@
   font-family: segoeui;
   src: url(../font/segoeui.ttf);
 }
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+
 /* carousel */
 .carousel-caption {
   bottom: 50%;
