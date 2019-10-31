@@ -35,7 +35,7 @@ body {
 }
 .title {
   width: 250px;
-  padding: 10px 20px 10px 0px;
+  padding: 10px 0px 10px 0px;
   font-size: 20px;
   position: relative;
 }
@@ -50,9 +50,9 @@ body {
   z-index: -1;
   background: #ff790f;
   transform-origin: top left;
-  -ms-transform: skew(-50deg, 0deg);
-  -webkit-transform: skew(-50deg, 0deg);
-  transform: skew(-50deg, 0deg);
+  -ms-transform: skew(-40deg, 0deg);
+  -webkit-transform: skew(-40deg, 0deg);
+  transform: skew(-40deg, 0deg);
 }
 .space {
   width: 30px;
