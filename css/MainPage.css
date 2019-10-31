@@ -152,44 +152,11 @@ input[type="range"]::-webkit-slider-thumb::before {
   padding-top: 30px;
 }
 .mainLoginInput {
+  width:600px;
   height: 40px;
   padding: 0px;
   font-size: 30px;
   margin: 5px 0;
-}
-
-.mainLoginInput::-webkit-input-placeholder {
-  font-family: FontAwesome, segoeui;
-  overflow: visible;
-  vertical-align: top;
-  display: inline-block !important;
-  padding-left: 5px;
-  padding-top: 2px;
-}
-
-.mainLoginInput::-moz-placeholder {
-  font-family: FontAwesome, segoeui;
-  font-weight: normal;
-  overflow: visible;
-  vertical-align: top;
-  display: inline-block !important;
-  padding-left: 5px;
-  padding-top: 2px;
-}
-
-.mainLoginInput:-ms-input-placeholder {
-  font-family: FontAwesome, segoeui;
-  overflow: visible;
-  vertical-align: top;
-  display: inline-block !important;
-  padding-left: 5px;
-  padding-top: 2px;
-}
-input .empty {
-  font-family: FontAwesome, segoeui;
-  font-style: normal;
-  font-weight: normal;
-  text-decoration: inherit;
 }
 .fw-bold {
   font-weight: bold;
@@ -349,6 +316,33 @@ input .empty {
     left: 10;
     background: rgba(0, 0, 0, 0.4);
     width: 81%;
+    height: 100%;
+    visibility: hidden;
+  }
+}
+@media only screen and (max-width: 418px) {
+  .title {
+    width: 100%;
+    padding: 10px 10px;
+  }
+  .space {
+    padding-top: 30px;
+  }
+  .rounded-imgs {
+    width: 40%;
+    height: 40%;
+  }
+  .pos-ab {
+    position: absolute;
+    top: 20%;
+    left: -15%;
+  }
+  .pos-ab2 {
+    position: absolute;
+    top: 0;
+    left: 10;
+    background: rgba(0, 0, 0, 0.4);
+    width: 92%;
     height: 100%;
     visibility: hidden;
   }

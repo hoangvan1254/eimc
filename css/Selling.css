@@ -210,3 +210,14 @@ input[type="range"]::-webkit-slider-thumb::before {
     visibility: hidden;
   }
 }
+@media only screen and (max-width: 418px) {
+  .pos-ab2 {
+    position: absolute;
+    top: 0;
+    left: 10;
+    background: rgba(0, 0, 0, 0.4);
+    width: 92%;
+    height: 100%;
+    visibility: hidden;
+  }
+}
