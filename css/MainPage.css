@@ -319,6 +319,13 @@ input[type="range"]::-webkit-slider-thumb::before {
     height: 100%;
     visibility: hidden;
   }
+  .mainLoginInput {
+    width:400px;
+    height: 40px;
+    padding: 0px;
+    font-size: 30px;
+    margin: 5px 0;
+  }
 }
 @media only screen and (max-width: 418px) {
   .title {
@@ -345,5 +352,12 @@ input[type="range"]::-webkit-slider-thumb::before {
     width: 92%;
     height: 100%;
     visibility: hidden;
+  }
+  .mainLoginInput {
+    width:380px;
+    height: 40px;
+    padding: 0px;
+    font-size: 30px;
+    margin: 5px 0;
   }
 }
