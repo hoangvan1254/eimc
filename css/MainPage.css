@@ -185,6 +185,12 @@ input[type="range"]::-webkit-slider-thumb::before {
   padding-left: 5px;
   padding-top: 2px;
 }
+input .empty {
+  font-family: FontAwesome, segoeui;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+}
 .fw-bold {
   font-weight: bold;
 }
